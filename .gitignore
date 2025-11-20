@@ -1,0 +1,40 @@
+# === ENV FILES ===
+.env
+*.env
+
+# === GO BUILD FILES ===
+*.exe
+*.out
+*.test
+main
+
+# === OS / EDITOR / TEMP FILES ===
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.tmp
+*.swp
+
+# === DOCKER VOLUMES / DATA ===
+data/
+db/data/
+db-volume/
+redis-data/
+mysql-data/
+postgres-data/
+
+# === GIT KEEP EXCEPTION (IF YOU WANT DATA FOLDER EMPTY) ===
+!data/.gitkeep
+
+# === BINARY & CACHE ===
+bin/
+build/
+dist/
+__pycache__/
+*.cache
+
+# === MODULE FILES (if any JS added later) ===
+node_modules/
+npm-debug.log
+yarn-error.log
